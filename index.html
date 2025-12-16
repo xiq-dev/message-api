@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Temperature Converter</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <form>
-        <h1>Конвертер температур</h1>
+        <h1>Temperature Converter</h1>
         <input type="number" id="textBox" value="0"><br>
         
         <input type="radio" id="toFahrenheit" name="unit">
-        <label for="toFahrenheit"> Цельсия → Фарренгейта</label><br>
+        <label for="toFahrenheit"> Celsius → Fahrenheit</label><br>
 
         <input type="radio" id="toCelsius" name="unit">
-        <label for="toCelsius"> Фарренгейта → Цельсия</label>
+        <label for="toCelsius"> Fahrenheit → Celsius</label>
 
         <button type="button" onclick="convert()">Submit</button>
         <p id="result"></p>
