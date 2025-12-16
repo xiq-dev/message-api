@@ -16,6 +16,6 @@ else if(toCelsius.checked) {
     result.textContent = temp.toFixed(1) + "°C"
 }
 else {
-    result.textContent = "Выберите единицу измерения"
+    result.textContent = "Choose the unit"
 }
 }
