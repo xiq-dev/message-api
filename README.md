@@ -11,23 +11,23 @@ Prerequisites
 
 Installation
 
-    Clone the repository:
+Clone the repository:
 
 bash
 
-git clone https://github.com/xiq-dev/message-api.git
-cd message-api
+    git clone https://github.com/xiq-dev/message-api.git
+    cd message-api
 
-    Install dependencies:
-
-bash
-
-go mod download
-
-    Run the server:
+Install dependencies:
 
 bash
 
-go run main.go
+    go mod download
 
-    Server starts at: http://localhost:8080
+Run the server:
+
+bash
+
+    go run main.go
+
+Server starts at: http://localhost:8080
