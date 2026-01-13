@@ -1,17 +1,33 @@
-# 🌡️ Temperature Converter
+📨 Message API with Go & Echo
 
-A clean, responsive web application for converting temperatures between Celsius and Fahrenheit. Built with pure HTML, CSS, and JavaScript.
+A simple and efficient REST API for message management built with Go and the Echo web framework. This API provides full CRUD operations with proper validation and thread-safe operations.
 
-## 🛠️ Technologies Used
+🚀 Quick Start
+Prerequisites
 
-- **HTML5** 
-- **CSS3** 
-- **JavaScript (ES6+)**
-- **Git & GitHub**
+    Go 1.21 or higher
 
-## 🎯 How to Use
+    Git
 
-1. **Enter a temperature** in a input field
-2. **Choose one of two units**
-3. **Click the Submit button**
+Installation
 
+    Clone the repository:
+
+bash
+
+git clone https://github.com/xiq-dev/message-api.git
+cd message-api
+
+    Install dependencies:
+
+bash
+
+go mod download
+
+    Run the server:
+
+bash
+
+go run main.go
+
+    Server starts at: http://localhost:8080
